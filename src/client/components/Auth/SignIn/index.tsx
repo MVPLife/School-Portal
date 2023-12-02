@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
+import Button from '@/src/shared/Button';
 import Container from '../container/Container';
 import Logo from '../../../../assest/Logo.png';
-import Link from 'next/link';
 import LoginWallpaper from '../../../../assest/LoginImage.png';
 import { Input, InputPassword } from '@/src/shared/Input';
-import Button from '@/src/shared/Button';
+import DropDown from '@/src/shared/DropDown/Dropdown';
 
 const Login = () => {
 	const [email, setEmail] = useState('');
@@ -60,21 +61,30 @@ const Login = () => {
 								</Link>
 							</div>
 
-							<div className='mt-12'>
+							<Link  href='/my_account' className='mt-12'>
 								<Button buttonName='Login to your account' />
-							</div>
+							</Link>
 
 							<p className='text-center text-gray-400 mt-8'>
-								Dont an account yet? <Link href='/Register' className='text-blue-600 font-bold'>Register</Link>
+								Dont an account yet?{' '}
+								<Link
+									href='/Register'
+									className='text-blue-600 font-bold'>
+									Register
+								</Link>
 							</p>
 						</div>
 					</form>
 				</div>
-				<Image
-					src={LoginWallpaper}
-					alt='wallpaper'
-					className='w-1/2'
-				/>
+				<div className='relative w-1/2'>
+					<Image
+						src={LoginWallpaper}
+						alt='wallpaper'
+					/>
+					<div className='absolute top-5 right-5'>
+						<DropDown/>
+					</div>
+				</div>
 			</div>
 		</Container>
 	);
