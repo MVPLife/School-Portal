@@ -12,8 +12,10 @@
     "@heathmont/moon-core-tw": "^10.11.0",
     "@heathmont/moon-icons-tw": "^9.28.6",
     "@heathmont/moon-themes-tw": "^10.11.0",
+    "apexcharts": "^3.44.0",
     "next": "14.0.3",
     "react": "^18",
+    "react-apexcharts": "^1.4.1",
     "react-dom": "^18"
   },
   "devDependencies": {

@@ -12,7 +12,7 @@ const Header = () => {
 	return (
 		<div className='flex items-center justify-between sticky top-0 z-50 p-6 h-[73px] bg-white border-l '>
 			<Link href='#'>
-				<h1 className='text-black text-2xl font-bold'>Dashboard</h1>
+				<h1 className='text-blue-600 text-2xl font-bold'>Dashboard</h1>
 			</Link>
 			<div className='flex items-center space-x-5'>
 				<div className='flex items-center border px-2 bg-white rounded-lg h-8'>

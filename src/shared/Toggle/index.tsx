@@ -38,7 +38,7 @@ const Toggle: React.FC<ToggleProps> = ({ onToggle }) => {
 					left: 0,
 					right: 0,
 					bottom: 0,
-					backgroundColor: isChecked ? '#000' : '#ccc',
+					backgroundColor: isChecked ? '#f4f4f4' : '#1D4ED8',
 					transition: '0.4s',
 					borderRadius: '34px',
 				}}>
