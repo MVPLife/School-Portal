@@ -1,22 +1,29 @@
+import { useChangeLocale, useCurrentLocale } from '@/locales/client';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 
 function LanguageSwitcher() {
-	const { t } = useTranslation();
-	const router = useRouter();
+	// const changeLocale = useChangeLocale()
+	// const currentLocale = useCurrentLocale()
+	// const { t } = useTranslation();
+	// const router = useRouter();
 
-	const changeLanguage = (lang:any) => {
-		router.push(router.pathname, router.asPath, { locale: lang });
-      };
+	// const changeLanguage = (lang:any) => {
+	// 	router.push(router.pathname, router.asPath, { locale: lang });
+      // };
+      
 
 	return (
 		<div>
-			<button onClick={() => changeLanguage('en')} className='text-black'>
-				{t('common:english')}
-			</button>
-			<button onClick={() => changeLanguage('es')} className='text-black'>
-				{t('common:spanish')}
-			</button>
+			{/* <button
+				onClick={() => changeLocale('en')}
+				className='text-black p-2'>
+				en
+			</button> */}
+			{/* <button
+				onClick={() => changeLocale('ar')}
+				className='text-black p-2'>
+			</button> */}
 		</div>
 	);
 }

@@ -29,7 +29,7 @@ const SideSection = () => {
 							onClick={() => handleClick(value.title)}
 							href={value.href}
 							className={`flex items-center justify-start py-2 w-full  hover:bg-gray-100 hover:rounded-lg hover:transition hover:transform hover:duration-150 hover:translate-x-2 space-x-3 ${
-								router.pathname === value.href
+								 value.href === router.pathname
 									? 'text-blue-600 font-bold bg-gray-100 rounded-lg translate-x-2 '
 									: 'text-gray-400 font-semibold'
 							}`}

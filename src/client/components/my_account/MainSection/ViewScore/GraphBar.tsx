@@ -9,7 +9,7 @@ const GraphBar = () => {
 	const [chartOptions, _] = useState({
 		series: [
 			{
-				name: 'sales',
+				name: 'score',
 				data: [30, 150, 80, 50, 49, 60, 100, 91, 125],
 			},
 		],
