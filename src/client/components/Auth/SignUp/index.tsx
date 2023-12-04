@@ -6,6 +6,7 @@ import Link from 'next/link';
 import LoginWallpaper from '../../../../assest/LoginImage.png';
 import { Input, InputPassword } from '@/src/shared/Input';
 import Button from '@/src/shared/Button';
+import Dropdown from '@/src/shared/DropDown/Dropdown';
 
 const Register = () => {
       const [name, setName] = useState('');
@@ -76,11 +77,15 @@ const Register = () => {
 						</form>
 					</div>
 				</div>
-				<Image
-					src={LoginWallpaper}
-					alt='wallpaper'
-					className='w-1/2'
-				/>
+				<div className='relative w-1/2'>
+					<Image
+						src={LoginWallpaper}
+						alt='wallpaper'
+					/>
+					<div className='absolute top-5 right-5'>
+						<Dropdown />
+					</div>
+				</div>
 			</div>
 		</Container>
 	);

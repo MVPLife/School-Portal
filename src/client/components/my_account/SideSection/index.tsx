@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import { ROUTE_DATA } from '../constant/data';
 import Link from 'next/link';
 import { useLink } from '@/src/shared/Hooks/useLinks';
@@ -6,8 +7,8 @@ import Toggle from '@/src/shared/Toggle';
 import Moon from '@/src/shared/Svg/Moon';
 
 const SideSection = () => {
-	const { link, handleClick } = useLink('Take Test');
-
+	const { handleClick } = useLink('Take Test');
+	const router = useRouter();
 	return (
 		<div className='flex flex-col bg-white h-screen w-full border-r sticky top-0'>
 			<div className='pl-6 py-6'>
@@ -28,7 +29,7 @@ const SideSection = () => {
 							onClick={() => handleClick(value.title)}
 							href={value.href}
 							className={`flex items-center justify-start py-2 w-full  hover:bg-gray-100 hover:rounded-lg hover:transition hover:transform hover:duration-150 hover:translate-x-2 space-x-3 ${
-								link === value.title
+								router.pathname === value.href
 									? 'text-blue-600 font-bold bg-gray-100 rounded-lg translate-x-2 '
 									: 'text-gray-400 font-semibold'
 							}`}

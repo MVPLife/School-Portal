@@ -6,7 +6,7 @@ const Dropdown = () => {
 		setSelectedValue(event.target.value);
 	};
 
-      const items = ['Arabic']
+	const items = ['Arabic'];
 
 	return (
 		<select

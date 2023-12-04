@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'next-i18next';
 import { Other3DotsHorizontal } from '@heathmont/moon-icons-tw';
 import QnASection from './QnASection';
 import PaginationTest from '../components/Pagination';
 import { Layout } from '../..';
+import LanguageSwitcher from '../../LanguageSwitcher';
 
 const TakeTest = () => {
-      const [pageNumber, setPageNumber] = useState(0);
+	const [pageNumber, setPageNumber] = useState(0);
 	return (
 		<Layout>
 			<div className='bg-white p-4 rounded-lg space-y-5 w-full'>
@@ -22,6 +24,8 @@ const TakeTest = () => {
 						height={25}
 					/>
 				</div>
+				<LanguageSwitcher />
+
 				<hr />
 				<QnASection setPageNumber={setPageNumber} />
 				<hr />

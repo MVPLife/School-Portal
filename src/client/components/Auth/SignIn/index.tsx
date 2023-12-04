@@ -61,7 +61,7 @@ const Login = () => {
 								</Link>
 							</div>
 
-							<Link  href='/my_account' className='mt-12'>
+							<Link  href='/my_account/taketest' className='mt-12'>
 								<Button buttonName='Login to your account' />
 							</Link>
 

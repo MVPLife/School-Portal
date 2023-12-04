@@ -1,9 +1,12 @@
 import React from 'react';
 import { Layout } from '../..';
+import { useTranslation } from 'next-i18next';
 import { Other3DotsHorizontal } from '@heathmont/moon-icons-tw';
 import GraphBar from './GraphBar';
 
 const ViewScore = () => {
+	const { t } = useTranslation('common');
+	console.log(t('how can i be your friend please'))
 	return (
 		<Layout>
 			<div className='bg-white p-4 rounded-lg space-y-5 w-full'>
