@@ -19,8 +19,23 @@ export default function Home() {
 					href='/favicon.ico'
 				/>
 			</Head>
-
+			<div id='google_translate_element'></div>
 			<Login />
+			<script
+				dangerouslySetInnerHTML={{
+					__html: `
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+              const script = document.createElement('script');
+              script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+              script.async = true;
+              document.body.appendChild(script);
+            });
+          `,
+				}}
+			/>
 		</>
 	);
 }

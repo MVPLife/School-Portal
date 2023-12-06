@@ -6,11 +6,13 @@ import Container from '../container/Container';
 import Logo from '../../../../assest/Logo.png';
 import LoginWallpaper from '../../../../assest/LoginImage.png';
 import { Input, InputPassword } from '@/src/shared/Input';
-import DropDown from '@/src/shared/DropDown/Dropdown';
+import LanguageSwitcher from '../../my_account/LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 const Login = () => {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
+	const { t } = useTranslation();
 
 	return (
 		<Container>
@@ -61,7 +63,9 @@ const Login = () => {
 								</Link>
 							</div>
 
-							<Link  href='/my_account/taketest' className='mt-12'>
+							<Link
+								href='/my_account/taketest'
+								className='mt-12'>
 								<Button buttonName='Login to your account' />
 							</Link>
 
@@ -82,7 +86,13 @@ const Login = () => {
 						alt='wallpaper'
 					/>
 					<div className='absolute top-5 right-5'>
-						<DropDown/>
+						<LanguageSwitcher />
+						{/* praticing react-i18next */}
+						{/* <div>
+							<p>{t('welcome')}</p>
+							<p>{t('greeting')}</p>
+							<p>{t('language')}</p>
+						</div> */}
 					</div>
 				</div>
 			</div>

@@ -1,31 +1,25 @@
-import { useChangeLocale, useCurrentLocale } from '@/locales/client';
-import { useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router';
+import { useTranslation } from 'react-i18next';
 
-function LanguageSwitcher() {
-	// const changeLocale = useChangeLocale()
-	// const currentLocale = useCurrentLocale()
-	// const { t } = useTranslation();
-	// const router = useRouter();
-
-	// const changeLanguage = (lang:any) => {
-	// 	router.push(router.pathname, router.asPath, { locale: lang });
-      // };
-      
+const LanguageSwitcher = () => {
+	const { i18n } = useTranslation();
+	const changeLanguage = (lng: string) => {
+		i18n.changeLanguage(lng);
+	};
 
 	return (
-		<div>
-			{/* <button
-				onClick={() => changeLocale('en')}
-				className='text-black p-2'>
-				en
-			</button> */}
-			{/* <button
-				onClick={() => changeLocale('ar')}
-				className='text-black p-2'>
-			</button> */}
+		<div className='text-white space-x-1'>
+			<button
+				onClick={() => changeLanguage('en')}
+				className='text-xs font-bold p-2 bg-blue-900 rounded-lg shadow-2xl'>
+				English
+			</button>
+			<button
+				onClick={() => changeLanguage('ar')}
+				className='text-xs font-bold p-2 bg-blue-900 rounded-lg'>
+				Arabic
+			</button>
 		</div>
 	);
-}
+};
 
 export default LanguageSwitcher;
