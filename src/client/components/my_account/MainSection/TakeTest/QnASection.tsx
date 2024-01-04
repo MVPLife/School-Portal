@@ -3,9 +3,14 @@ import { Carousel } from '@heathmont/moon-core-tw';
 import QnACarousel from '../components/Carousel';
 import { QnA_Data } from '../Constant/data';
 
-const QnASection = ({ setPageNumber }: { setPageNumber: Function }) => {
+const QnASection = ({selected}: {selected: number}) => {
+	function numberToLetter(number: number) {
+		return String.fromCharCode('A'.charCodeAt(0) + number);
+	}
+
 	return (
 		<QnACarousel
+			selected={selected}
 			carouselItems={
 				<>
 					{QnA_Data.map((value, index) => (
@@ -15,8 +20,10 @@ const QnASection = ({ setPageNumber }: { setPageNumber: Function }) => {
 							<div
 								key={index}
 								className='w-full'>
-								<p>{value.question}</p>
-
+			
+								<p>
+									{value.question}
+								</p>
 								<div className='flex flex-col space-y-3 mt-10'>
 									{value.optionAns.map((ansOption, ind) => (
 										<div
@@ -27,7 +34,9 @@ const QnASection = ({ setPageNumber }: { setPageNumber: Function }) => {
 												name='radio'
 												value={ansOption}
 											/>
-											.A
+											{` ${numberToLetter(
+												ind
+											)}. ${ansOption}`}
 											<label htmlFor='html'>
 												{ansOption}
 											</label>

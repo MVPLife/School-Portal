@@ -6,14 +6,16 @@ import {
 } from '@heathmont/moon-icons-tw';
 
 const QnACarousel = ({
+	selected,
 	carouselItems,
 }: {
+	selected: number,
 	carouselItems: React.JSX.Element;
 }) => {
 	return (
 		<Carousel
-			scrollTo={1}
-			step={1}>
+			step={1}
+			selectedIndex={selected}>
 			<Carousel.LeftArrow className='bg-black bg-opacity-20 rounded-full'>
 				<ControlsChevronLeftSmall fill='black' />
 			</Carousel.LeftArrow>

@@ -21,7 +21,7 @@ export default function Home() {
 			</Head>
 			<div id='google_translate_element'></div>
 			<Login />
-			<script
+			{/* <script
 				dangerouslySetInnerHTML={{
 					__html: `
             function googleTranslateElementInit() {
@@ -35,7 +35,7 @@ export default function Home() {
             });
           `,
 				}}
-			/>
+			/> */}
 		</>
 	);
 }

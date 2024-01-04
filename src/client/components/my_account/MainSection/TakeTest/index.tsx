@@ -3,12 +3,14 @@ import { Other3DotsHorizontal } from '@heathmont/moon-icons-tw';
 import QnASection from './QnASection';
 import PaginationTest from '../components/Pagination';
 import { Layout } from '../..';
-import LanguageSwitcher from '../../LanguageSwitcher';
+// import LanguageSwitcher from '../../LanguageSwitcher';
+import { QnA_Data } from '../Constant/data';
 
 
 
 const TakeTest = () => {
-	const [pageNumber, setPageNumber] = useState(0);
+	const [selected, setSelected] = useState(0);
+	console.log(selected);
 
 	return (
 		<Layout>
@@ -26,11 +28,20 @@ const TakeTest = () => {
 						height={25}
 					/>
 				</div>
-				
+
 				<hr />
-				<QnASection setPageNumber={setPageNumber} />
+				<QnASection selected={selected} />
 				<hr />
-				<PaginationTest pageNumber={pageNumber} />
+				<div className='flex flex-wrap'>
+					{QnA_Data.map((value, index) => (
+						<PaginationTest
+							key={index}
+							index={value.id}
+							selected={selected}
+							setSelected={setSelected}
+						/>
+					))}
+				</div>
 			</div>
 		</Layout>
 	);
