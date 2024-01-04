@@ -6,7 +6,7 @@ import Container from '../container/Container';
 import Logo from '../../../../assest/Logo.png';
 import LoginWallpaper from '../../../../assest/LoginImage.png';
 import { Input, InputPassword } from '@/src/shared/Input';
-import LanguageSwitcher from '../../my_account/LanguageSwitcher';
+// import LanguageSwitcher from '../../my_account/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 
 const Login = () => {
@@ -86,7 +86,7 @@ const Login = () => {
 						alt='wallpaper'
 					/>
 					<div className='absolute top-5 right-5'>
-						<LanguageSwitcher />
+						{/* <LanguageSwitcher /> */}
 						{/* praticing react-i18next */}
 						{/* <div>
 							<p>{t('welcome')}</p>
