@@ -15,13 +15,13 @@ const GraphBar = () => {
 		],
 		xaxis: {
 			categories: [
-				'Maths',
-				'Arabic',
-				'Biology',
-				'General Knowledge',
-				'Physics',
-				'Chemistry',
-				'English',
+				'التوحيد',
+				'لغة',
+				'الفقه',
+				'علم الأدب',
+				'حديث',
+				'محفوظة',
+				'التجويد',
 			],
 		},
 	});

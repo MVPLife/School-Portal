@@ -14,7 +14,7 @@ const SideSection = () => {
 			<div className='pl-6 py-6'>
 				<Link href='#'>
 					<p className='font-bold text-2xl text-black'>
-						school<span className='text-blue-600'>Portal</span>{' '}
+						بوابة<span className='text-blue-600'>المدرسة</span>{' '}
 					</p>
 				</Link>
 			</div>

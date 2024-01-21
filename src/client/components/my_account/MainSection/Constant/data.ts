@@ -1,137 +1,157 @@
 export const QnA_Data = [
       {
             id: 1,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'ما معنى كلمة (الصلاة) لغة؟',
+            optionAns: ['الإخلاص', 'الإستقامة', 'الإيمان', 'الدعاء']
       },
       {
             id: 2,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'متى كان تشريع الصلاة؟',
+            optionAns: ['فى ليلة القدر', 'فى ليلة المعراج', 'فى ليلة الموليد', 'فى ليلة الجلسة']
       },
       {
             id: 3,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'هل هذا يعني تضعيف الحسنةإلى عشر أضعافها؟',
+            optionAns: ['نعم', 'لا']
       },
       {
             id: 4,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'هل كل مصلًّ سيتساوى مغ غيره فى أجر الصلاة؟',
+            optionAns: ['نعم', 'لا']
       },
       {
             id: 5,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'كم ينقسم الصلاة المفروضة؟',
+            optionAns: ['قسمين', 'خمسة أقسام', 'تسعة أقسام', 'أربعة أقسام']
       },
       {
             id: 6,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'هل التخفيف فى العدد مؤثر على الأجر؟',
+            optionAns: ['نعم', 'لا']
       },
       {
             id: 7,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'ما الدليل على وجوب الصلاة من أي سورة منهم؟',
+            optionAns: ['سورة اللإمران', 'سورة الناس', 'سورة النساء', 'سورة الفتح']
       },
       {
             id: 8,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'هل نفهم أن الصلاة لها جانبان فى الرعاية والإهتمام؟',
+            optionAns: ['نعم', 'لا']
       },
       {
             id: 9,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'كم أنواع الصلوات المشروعت لنا؟',
+            optionAns: ['ثلاثة أنواع', 'عشرة أنواع', 'قسمين', 'ستة أنواع']
       },
       {
             id: 10,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'ما الدعاء الذى شملته الصلاة؟',
+            optionAns: ['دعاء المسألة والعبادة', 'دعاء بين المحبوبين', 'دعاء فى الليلة القدر', 'دعاء الفجر']
       },
       {
             id: 11,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'ما معنى الصلاة من الملائكة؟',
+            optionAns: ['الإستغفار', 'الطهارة', 'التقريب', 'الكفر']
       },
       {
             id: 11,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'متى كان تشريع الصلاة؟',
+            optionAns: ['فى ليلة القدر', 'فى ليلة المعراج', 'فى ليلة الموليد', 'فى ليلة الجلسة']
       },
       {
             id: 12,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'كم أنواع الصلوات المشروعت لنا؟',
+            optionAns: ['ثلاثة أنواع', 'عشرة أنواع', 'قسمين', 'ستة أنواع']
       },
       {
             id: 13,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'ما الدليل على وجوب الصلاة من أي سورة منهم؟',
+            optionAns: ['سورة اللإمران', 'سورة الناس', 'سورة النساء', 'سورة الفتح']
       },
       {
             id: 14,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'هل كل مصلًّ سيتساوى مغ غيره فى أجر الصلاة؟',
+            optionAns: ['نعم', 'لا']
       },
       {
             id: 15,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'كم ينقسم الصلاة المفروضة؟',
+            optionAns: ['قسمين', 'خمسة أقسام', 'تسعة أقسام', 'أربعة أقسام']
       },
       {
             id: 16,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'ما معنى كلمة (الصلاة) لغة؟',
+            optionAns: ['الإخلاص', 'الإستقامة', 'الإيمان', 'الدعاء']
       },
       {
             id: 17,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'هل كل مصلًّ سيتساوى مغ غيره فى أجر الصلاة؟',
+            optionAns: ['نعم', 'لا']
       },
       {
             id: 18,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'كم ينقسم الصلاة المفروضة؟',
+            optionAns: ['قسمين', 'خمسة أقسام', 'تسعة أقسام', 'أربعة أقسام']
       },
       {
             id: 19,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'كم أنواع الصلوات المشروعت لنا؟',
+            optionAns: ['ثلاثة أنواع', 'عشرة أنواع', 'قسمين', 'ستة أنواع']
       },
       {
             id: 20,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'إلى كم ينقسم صلاة التطوع؟',
+            optionAns: ['ستة', 'أربعة', 'واحد', 'إثنين']
       },
       {
             id:21,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'ما الدليل على وجوب الصلاة من أي سورة منهم؟',
+            optionAns: ['سورة اللإمران', 'سورة الناس', 'سورة النساء', 'سورة الفتح']
       },
       {
             id: 22,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'متى كان تشريع الصلاة؟',
+            optionAns: ['فى ليلة القدر', 'فى ليلة المعراج', 'فى ليلة الموليد', 'فى ليلة الجلسة']
       },
       {
             id: 23,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'هل كل مصلًّ سيتساوى مغ غيره فى أجر الصلاة؟',
+            optionAns: ['نعم', 'لا']
       },
       {
             id: 24,
-            question: 'Which of the following body systems determines the type of feed given to an animal?',
-            optionAns: ['Circulatory', 'Digestive', 'Excretory', 'Reproductive']
+            question: 'ما معنى كلمة (الصلاة) لغة؟',
+            optionAns: ['الإخلاص', 'الإستقامة', 'الإيمان', 'الدعاء']
       },
       {
             id: 25,
-            question: 'Which of the following farm animals are monogastrics? I. Carmel II. Donkey III. Horse',
-            optionAns: ['I and II only', 'I and III only', 'II and III', 'I, II and III only']
+            question: 'ما الدعاء الذى شملته الصلاة؟',
+            optionAns: ['دعاء المسألة والعبادة', 'دعاء بين المحبوبين', 'دعاء فى الليلة القدر', 'دعاء الفجر']
       },
       {
             id: 26,
-            question: 'Which of the following identification methods could be used in poultry production?',
-            optionAns: ['Banding', 'Branding', 'Notching', 'Tattooing']
+            question: 'إلى كم ينقسم صلاة التطوع؟',
+            optionAns: ['ستة', 'أربعة', 'واحد', 'إثنين']
+      },
+      {
+            id: 27,
+            question: 'ما الدليل على وجوب الصلاة من أي سورة منهم؟',
+            optionAns: ['سورة اللإمران', 'سورة الناس', 'سورة النساء', 'سورة الفتح']
+      },
+      {
+            id: 28,
+            question: 'متى كان تشريع الصلاة؟',
+            optionAns: ['فى ليلة القدر', 'فى ليلة المعراج', 'فى ليلة الموليد', 'فى ليلة الجلسة']
+      },
+      {
+            id: 29,
+            question: 'هل كل مصلًّ سيتساوى مغ غيره فى أجر الصلاة؟',
+            optionAns: ['نعم', 'لا']
+      },
+      {
+            id: 30,
+            question: 'كم ينقسم الصلاة المفروضة؟',
+            optionAns: ['قسمين', 'خمسة أقسام', 'تسعة أقسام', 'أربعة أقسام']
       },
 ]

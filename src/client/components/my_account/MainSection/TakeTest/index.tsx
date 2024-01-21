@@ -17,11 +17,11 @@ const TakeTest = () => {
 			<div className='bg-white p-4 rounded-lg space-y-5 w-full'>
 				<div className='flex items-center justify-between'>
 					<p className='font-bold text-black'>
-						Take Test{' '}
-						<span className='font-thin'>{`(Test 1)`}</span>
+						إمتحان{' '}
+						<span className='font-thin'>{`(تحريري)`}</span>
 					</p>
 					<p className='font-bold text-black text-xl'>
-						General Knowledge
+						الصلاة
 					</p>
 					<Other3DotsHorizontal
 						width={35}

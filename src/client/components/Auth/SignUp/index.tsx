@@ -25,7 +25,7 @@ const Register = () => {
 							className='h-10 w-12'
 						/>
 						<p className='text-gold text-center text-sm font-bold -mt-2 pl-2'>
-							Logo
+							مركز السلام
 						</p>
 					</div>
 
@@ -35,14 +35,14 @@ const Register = () => {
 								Create an account
 							</p>
 							<p className='text-gray-400 text-center mt-2'>
-								Enter your account information
+							أدخل معلومات حسابك
 							</p>
 						</div>
 
 						<form className='mt-12'>
 							<div className='space-y-12'>
 								<Input
-									placeHolder='Your name'
+									placeHolder='إسم'
 									value={name}
 									inputType='text'
 									setValue={setName}
@@ -51,7 +51,7 @@ const Register = () => {
 								<InputPassword
 									password={password}
 									setPassword={setPassword}
-									placeHolder='Password'
+									placeHolder='كلمة المرور'
 								/>
 
 								<Input
@@ -63,11 +63,11 @@ const Register = () => {
 							</div>
 
 							<div className='mt-16'>
-								<Button buttonName='Login to your account' />
+								<Button buttonName='تسجيل الدخول إلى حسابك' />
 							</div>
 
 							<p className='text-center text-gray-400 mt-8'>
-								Already an account?{' '}
+								Already have an account?{' '}
 								<Link
 									href='/'
 									className='text-blue-600 font-bold'>

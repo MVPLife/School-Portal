@@ -25,26 +25,26 @@ const Login = () => {
 							className='h-10 w-12'
 						/>
 						<p className='text-gold text-center text-sm font-bold -mt-2 pl-2'>
-							Logo
+							مركز السلام
 						</p>
 					</div>
 
 					<form className='px-16 items-center justify-center mt-24'>
 						<div className='mt-6 text-center'>
 							<p className='text-3xl font-bold'>
-								Welcome to{' '}
-								<span className='text-blue-700'>school</span>{' '}
-								portal
+								مرحبا بكم فى{' '}
+								<span className='text-blue-700'>بوابة</span>{' '}
+								المدرسة
 							</p>
 							<p className='text-gray-400 text-center mt-2'>
-								Enter your account information
+								أدخل معلومات حسابك
 							</p>
 						</div>
 
 						<div className='mt-8'>
 							<div className='space-y-12'>
 								<Input
-									placeHolder='Enter your email'
+									placeHolder='أكتب البريد'
 									value={email}
 									inputType='email'
 									setValue={setEmail}
@@ -53,7 +53,7 @@ const Login = () => {
 								<InputPassword
 									password={password}
 									setPassword={setPassword}
-									placeHolder='Enter your password'
+									placeHolder='كلمة المرور'
 								/>
 							</div>
 							<div className='flex items-center underline justify-between text-blue-600 text-xs w-full my-8'>
@@ -66,7 +66,7 @@ const Login = () => {
 							<Link
 								href='/my_account/taketest'
 								className='mt-12'>
-								<Button buttonName='Login to your account' />
+								<Button buttonName='تسجيل الدخول إلى حسابك' />
 							</Link>
 
 							<p className='text-center text-gray-400 mt-8'>

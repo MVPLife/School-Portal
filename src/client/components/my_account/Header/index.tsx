@@ -10,9 +10,9 @@ import {
 
 const Header = () => {
 	return (
-		<div className='flex items-center justify-between sticky top-0 z-50 p-6 h-[73px] bg-white border-l '>
+		<div className='flex items-center justify-between sticky top-0 z-50 p-6 h-[73px] bg-white border-l'>
 			<Link href='#'>
-				<h1 className='text-blue-600 text-2xl font-bold'>Dashboard</h1>
+				<h1 className='text-blue-600 text-2xl font-bold'>لوحة القيادة</h1>
 			</Link>
 			<div className='flex items-center space-x-5'>
 				<div className='flex items-center border px-2 bg-white rounded-lg h-8'>
@@ -23,7 +23,7 @@ const Header = () => {
 					<input
 						type='text'
 						className='w-44 borderless-input rounded-lg pl-2 bg-white'
-						placeholder='Search...'
+						placeholder='يبحث...'
 					/>
 				</div>
 
@@ -45,8 +45,8 @@ const Header = () => {
 								width={40}
 							/>
 							<div className='flex flex-col'>
-								<p className='font-bold text-md'>Fatima L.</p>
-								<p className='text-gray-500 text-xs '>Student</p>
+								<p className='font-bold text-md'>عبد الباقى</p>
+								<p className='text-gray-500 text-xs '>طالب</p>
 							</div>
 						</div>
 
