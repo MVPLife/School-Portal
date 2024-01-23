@@ -13,8 +13,9 @@ const SideSection = () => {
 		<div className='flex flex-col bg-white h-screen w-full border-r sticky top-0'>
 			<div className='pl-6 py-6'>
 				<Link href='#'>
-					<p className='font-bold text-2xl text-black'>
-						بوابة<span className='text-blue-600'>المدرسة</span>{' '}
+					<p className='font-bold text-2xl text-black'
+					style={{fontFamily: "'Jomhuria', serif", fontWeight: "700"}}>
+						بوابة {' '}<span className='text-blue-600'>المدرسة</span>
 					</p>
 				</Link>
 			</div>

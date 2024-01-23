@@ -8,8 +8,12 @@ const ViewScore = () => {
 		<Layout>
 			<div className='bg-white p-4 rounded-lg space-y-5 w-full'>
 				<div className='flex items-center justify-between'>
-					<p className='font-bold text-black'>النتيجة</p>
-					<p className='font-bold text-black text-xl'>نتيجة الإختبار</p>
+					<h4 className='font-bold text-black'
+					style={{fontFamily:"'Gulzar', serif", fontWeight:"700", fontSize:"18px"}}>
+						درجـــات</h4>
+					<h2 className='font-bold text-black text-xl'
+					style={{fontFamily:"'Gulzar', serif", fontWeight:"700", fontSize:"25px"}}>
+						نتيجــة الإختبــــار</h2>
 					<Other3DotsHorizontal
 						width={35}
 						height={25}

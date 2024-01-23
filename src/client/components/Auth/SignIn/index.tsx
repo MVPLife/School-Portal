@@ -24,25 +24,28 @@ const Login = () => {
 							alt='logo alt'
 							className='h-10 w-12'
 						/>
-						<p className='text-gold text-center text-sm font-bold -mt-2 pl-2'>
-							مركز السلام
-						</p>
+						<h2 className='text-gold text-center text-sm font-bold -mt-2 pl-2'
+						style={{fontFamily:"'Amiri Quran', serif", fontWeight:"700", fontSize:"16px"}}>
+							مدرسة المباركة
+						</h2>
 					</div>
 
 					<form className='px-16 items-center justify-center mt-24'>
 						<div className='mt-6 text-center'>
-							<p className='text-3xl font-bold'>
-								مرحبا بكم فى{' '}
-								<span className='text-blue-700'>بوابة</span>{' '}
+							<h1 className='text-3xl font-bold'
+							style={{fontFamily:"'Gulzar', serif", fontWeight:"700", fontSize:"45px"}}>
+								مرحبــا بكم فى{' '}
+								<span className='text-blue-700'>بــوابة</span>{' '}
 								المدرسة
-							</p>
-							<p className='text-gray-400 text-center mt-2'>
-								أدخل معلومات حسابك
-							</p>
+							</h1>
+							<h2 className='text-gray-400 text-center mt-2'
+							style={{fontFamily:"'Amiri Quran', serif", fontWeight:"700", fontSize:"20px"}}>
+								أدخل معلومات حســابك
+							</h2>
 						</div>
 
 						<div className='mt-8'>
-							<div className='space-y-12'>
+							<div className='space-y-12 text-end'>
 								<Input
 									placeHolder='أكتب البريد'
 									value={email}
@@ -65,7 +68,8 @@ const Login = () => {
 
 							<Link
 								href='/my_account/taketest'
-								className='mt-12'>
+								className='mt-12'
+								style={{fontFamily:"'Amiri Quran', serif", fontWeight:"700"}}>
 								<Button buttonName='تسجيل الدخول إلى حسابك' />
 							</Link>
 

@@ -24,22 +24,26 @@ const Register = () => {
 							alt='logo alt'
 							className='h-10 w-12'
 						/>
-						<p className='text-gold text-center text-sm font-bold -mt-2 pl-2'>
-							مركز السلام
-						</p>
+						<h2 className='text-gold text-center text-sm font-bold -mt-2 pl-2'
+						style={{fontFamily:"'Amiri Quran', serif", fontWeight:"700", fontSize:"16px"}}>
+							مدرسة المباركة
+						</h2>
 					</div>
 
 					<div className='px-16 items-center justify-center mt-16'>
 						<div className='mt-6 text-center'>
-							<p className='text-3xl font-bold'>
-								Create an account
-							</p>
-							<p className='text-gray-400 text-center mt-2'>
+							<h1 className='text-3xl font-bold'
+							style={{fontFamily:"'Gulzar', serif", fontWeight:"700", fontSize:"45px"}}>
+								إنشــاء حساب
+							</h1>
+							<h2 className='text-gray-400 text-center mt-2'
+							style={{fontFamily:"'Amiri Quran', serif", fontWeight:"700", fontSize:"20px"}}>
 							أدخل معلومات حسابك
-							</p>
+							</h2>
 						</div>
 
-						<form className='mt-12'>
+						<form className='mt-12'
+						style={{fontFamily:"'Amiri Quran', serif", fontWeight:"700"}}>
 							<div className='space-y-12'>
 								<Input
 									placeHolder='إسم'
@@ -55,14 +59,15 @@ const Register = () => {
 								/>
 
 								<Input
-									placeHolder='Email/Mobile Number'
+									placeHolder='البرد أو رقم الهاتف'
 									value={email || phoneNo}
 									inputType={'email' || 'password'}
 									setValue={setEmail || setPhoneNo}
 								/>
 							</div>
 
-							<div className='mt-16'>
+							<div className='mt-16'
+							style={{fontFamily:"'Amiri Quran', serif", fontWeight:"700"}}>
 								<Button buttonName='تسجيل الدخول إلى حسابك' />
 							</div>
 
